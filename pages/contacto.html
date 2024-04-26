@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://kit.fontawesome.com/1735925cdf.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../resources/styles/styles.css">
+<title>Travesias - Contactos</title>
+</head>
+<body>
+    <header>
+        <nav>
+           
+            <a class="nav" href="../index.html">Home</button></a>
+            <a class="nav" href="./travesiasRealizadas.html">Realizadas</button></a>
+            <a class="nav" href="./futuro.html">A realizar</button></a>
+            <a class="nav" href="./contacto.html">Contacto</button></a>
+        </nav>    
+              
+                <h1 id="inicio"> Travesias épicas</h1>
+               
+        </header>
+        
+        <img src="../resources/image/workingOnIt1.jpg" alt="Working" width="200">
+
+    <h2> Contacto</h2>
+    <p> ¿Preguntas, comentarios? Contáctanos </p>
+    <form action="/formulario" method="GET">
+        <fieldset>
+            <!-- encapsula dentro de form -->
+            <legend>Información personal</legend>
+
+            <label for="inputNombre">Nombre:</label>
+            <input type="text" name="inputNombre" id="inputNombre"
+                   placeholder="Ingresar nombre"
+                   title="Solo nombre de pila"
+                   required />
+            <!-- autofocus> si esto required está, es obligatorio ingresar algo -->
+            <br>
+            <label for="">Correo electrónico:</label>
+            <input type="email"
+                   name="email"
+                   id="email"
+                   placeholder="Ingrese su mail"
+                   required>   <!-- si esto required está, es obligatorio ingresar algo -->
+
+            <br>
+            <label for="">Telefono:</label>
+            <input type="tel"
+                   name="telefono"
+                   id="inputTelefono"
+                   placeholder="+54 9 1145644789"
+                   required>
+
+            <br>
+            <label for="">Fecha de nacimiento:</label>
+            <input type="date"
+                   name="fecha"
+                   id="inputFecha"
+                   placeholder="2024-03-10"
+                   required>   <!-- si esto required está, es obligatorio ingresar algo -->
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend> Seguridad</legend>
+            <label> Contraseña</label>
+            <input type="password"
+                   id="password"
+                   name="contraseña"
+                   minlenght="8"
+                   placeholder="minimo 8 caracteres">
+        </fieldset>
+        <fieldset>
+            <legend>Información adicional</legend>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="SEND">
+        <br />
+        <input type="reset" value="Borrar"
+
+    </form>
+    <br />
+   
+    <footer >
+                
+        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <p>Derechos reservados @2024</p>
+    </footer>
+</body>
+</html>

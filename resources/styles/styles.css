@@ -1,0 +1,111 @@
+﻿/* body {  */
+.output {
+            font: 1rem 'Fira Sans' , sans-serif;
+        }
+h1 {
+    text-align: center;
+}
+.imagenes {
+    text-align: center;
+}
+
+header h1{
+    background-color: rgb(192, 134, 68);
+    color: #00ff21;
+    font-size: 48px;
+    font-weight: 100;
+  /*   animation: mover 3s ease infinite; Aplicar animación llamada "mover" */
+} 
+ 
+    
+/* } */
+
+.mnu {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición del color de fondo */
+
+}
+.mnu:hover {
+    background-color: #3ce761; /* Nuevo color de fondo al pasar el cursor */
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destinos {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+.carousel-inner {
+    text-align: center;
+    
+    
+}
+/*
+.container {
+    position:relative;
+    left: 30px;
+    top:10px;
+    border:2px solid blue;
+    background-color: lightblue;
+    width:300px;
+    height:100px;
+    margin:0px
+    
+}
+
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/*
+header h1 {
+    font-size: 48px;
+    font-weight: 100;
+    color: magenta;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+*/
+
