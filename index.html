@@ -3,25 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <title>Travesías en bicicleta</title>
-    <script
-      src="https://kit.fontawesome.com/1735925cdf.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1735925cdf.js" crossorigin="anonymous"> </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="./resources/styles/styles.css" />
   </head>
   <body>
     <header>
       <h1 id="inicio">Travesías épicas</h1>
-      <nav>
+       <nav>
         <a class="mnu" href="./index.html">Home</a>
         <a class="mnu" href="./pages/travesiasRealizadas.html">Realizadas</a>
         <a class="mnu" href="./pages/futuro.html">A realizar</a>
         <a class="mnu" href="./pages/contacto.html">Contacto</a>
+        <a class="mnu" href="./pages/login.html">¡QUIERO VIAJAR!</a>
       </nav>
-
       <figure>
         <center>
           <img
@@ -33,7 +31,6 @@
         </center>
       </figure>
     </header>
-
     <br />
     <b>
       ¿Te animás a recorrer caminos no imaginados, ver paisajes que solo la
@@ -50,5 +47,14 @@
       ></a>
       <p>Derechos reservados @2024</p>
     </footer>
+ 
+    <script>
+      const btn = document.querySelector('#logoutButton');
+      btn.addEventListener('click', ()=>{
+        alert ("Se hizo click con addeventlistener")
+
+      })
+    </script>
   </body>
 </html>
+  

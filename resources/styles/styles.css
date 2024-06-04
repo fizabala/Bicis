@@ -64,48 +64,40 @@ footer {
     
     
 }
-/*
-.container {
-    position:relative;
-    left: 30px;
-    top:10px;
-    border:2px solid blue;
-    background-color: lightblue;
-    width:300px;
-    height:100px;
-    margin:0px
-    
+#container {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
 }
 
-}
-
-h1 {
+.card {
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
     text-align: center;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    transition: transform;
 }
-
-header {
-    background-color: black;
-    color: white;
-}
-
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
+.card:hover {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    transform: scale(1.1);
 }
 /*
-header h1 {
-    font-size: 48px;
-    font-weight: 100;
-    color: magenta;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-*/
 
+   /* Agregar una clase de estilo según las vacantes */
+  .bajo-vacantes {
+    border: 2px solid red;
+  }
+  
+  #buscador {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
